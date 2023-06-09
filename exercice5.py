@@ -26,8 +26,12 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
-
+f = 1
+i = 1
+while i <= number:
+   f = f * i
+   i = i + 1
+   return f
 
 def use_continue() -> None:
     pass
