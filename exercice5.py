@@ -7,7 +7,7 @@ from typing import List
 
 def convert_to_absolute(number: float) -> float:
    if number < 0:
-        return -(number)
+        return number*-1
    else:
         return number
 
